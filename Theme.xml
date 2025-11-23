@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SaveSimpleDataWithSharedPreferences" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- فقط تم اصلی بدون تغییر روی دکمه‌ها -->
+        <!-- می‌تونید رنگ پس‌زمینه و متن اپ رو اینجا تنظیم کنید -->
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <!-- هیچ خصوصیت دکمه ای اعمال نمی‌کنیم -->
+    </style>
+
+    <style name="Theme.SaveSimpleDataWithSharedPreferences" parent="Base.Theme.SaveSimpleDataWithSharedPreferences" />
+</resources>
